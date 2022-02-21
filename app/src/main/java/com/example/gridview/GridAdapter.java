@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class GridAdapter extends BaseAdapter {
+
     Context context;
     String[] name;
     int[] image;
