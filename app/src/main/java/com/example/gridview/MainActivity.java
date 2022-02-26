@@ -38,12 +38,12 @@ public class MainActivity extends AppCompatActivity {
         GridAdapter gridAdapter = new GridAdapter(MainActivity.this, name, image);
         binding.gridView.setAdapter(gridAdapter);
 
-        binding.gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, "You click " + name[position], Toast.LENGTH_SHORT).show();
-            }
-        });
+//        binding.gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                Toast.makeText(MainActivity.this, "You click " + name[position], Toast.LENGTH_SHORT).show();
+//            }
+//        });
 
     }
 }
